@@ -1,12 +1,21 @@
-import './App.css';
+import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import Header from "./components/header";
+import FindArt from "./components/findArt";
+import Login from "./components/login";
+import Exhibitions from "./components/viewExhibitions";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        DEE WIZ
-      </header>
-    </div>
+    <>
+      <>DEE WIZ</>
+      <Header />
+      <Routes>
+        <Route path="/artwork" element={<FindArt />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/exhibitions" element={<Exhibitions />} />
+      </Routes>
+    </>
   );
 }
 
