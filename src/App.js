@@ -1,16 +1,16 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
-import Header from "./components/header";
-import Home from "./components/home";
+import Header from "./components/Header/header";
+import Home from "./pages/Home/home";
 import FindArt from "./components/findArt";
-import Login from "./components/login";
-import Exhibitions from "./components/viewExhibitions";
+import Login from "./pages/Login/login";
+import Exhibitions from "./pages/Exhibitions/viewExhibitions";
 
 function App() {
   return (
     <>
-      <>DEE WIZ</>
       <Header />
+      <>DEE WIZ</>
       <Routes>
         <Route path="/home" element={<Home />} />
         <Route path="/artwork" element={<FindArt />} />
