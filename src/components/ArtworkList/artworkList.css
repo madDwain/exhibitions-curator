@@ -1,0 +1,5 @@
+.artwork-list{
+    display: flex;
+    flex-direction: column;
+    margin: 4px;
+}

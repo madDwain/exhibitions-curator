@@ -16,6 +16,12 @@
     gap: 50px;
 }
 
+.navbar-left ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
 .navbar-right {
   align-items: right;
   align-self: right;
