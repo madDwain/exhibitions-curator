@@ -1,0 +1,7 @@
+home-page{
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    border-radius: 2px;
+    padding: 2rem;
+}

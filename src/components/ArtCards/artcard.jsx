@@ -4,7 +4,7 @@ import './artcard.css'
 const artCard = () => {
   return (
     <div classname='title-cards'>
-      
+    
     </div>
   )
 }

@@ -6,11 +6,11 @@ import FindArt from "./components/findArt";
 import Login from "./pages/Login/login";
 import Exhibitions from "./pages/Exhibitions/viewExhibitions";
 
+
 function App() {
   return (
     <>
       <Header />
-      <>DEE WIZ</>
       <Routes>
         <Route path="/home" element={<Home />} />
         <Route path="/artwork" element={<FindArt />} />
